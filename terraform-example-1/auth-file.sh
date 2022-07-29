@@ -13,7 +13,7 @@ curl -u "${RANCHER_TOKEN_KEY}" \
 cp config ~/.kube/
 rm config
 
-#check cluster
-echo "****** CLUSTER INFORMATION  ******"
-kubectl cluster-info
-kubectl get node
+#check cluster, you need the kubectl installed
+#echo "****** CLUSTER INFORMATION  ******"
+#kubectl cluster-info
+#kubectl get node
