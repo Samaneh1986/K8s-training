@@ -10,7 +10,4 @@ terraform {
     }
   }
 }
-provider "rancher2" {
-  api_url    = "https://rancher.mydomain.com"
-}
 
