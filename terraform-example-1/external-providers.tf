@@ -4,9 +4,5 @@ terraform {
       source = "rancher/rancher2"
       version = "1.24.0"
     }
-    kubectl = {
-      source  = "gavinbunney/kubectl"
-      version = ">= 1.7.0"
-    }
   }
 }
